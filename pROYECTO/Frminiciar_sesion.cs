@@ -57,7 +57,7 @@ namespace pROYECTO
 
                     if (contrasena == passBD) // comparación simple
                     {
-                        string nombre = reader["nombre"].ToString();  //comentario
+                        string nombre = reader["nombre"].ToString();  //comentario de uriel
                         MessageBox.Show("Acceso correcto \nBienvenido " + nombre);
 
                         if (registroInstancia == null || registroInstancia.IsDisposed || correoActivo != correo)
